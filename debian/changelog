@@ -1,0 +1,56 @@
+node-loader-runner (4.2.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Fix GitHub tags regex
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix filenamemangle
+  * Drop dependency to nodejs
+  * Mark test dependencies with <!nocheck>
+  * New upstream version 4.2.0
+
+ -- Yadd <yadd@debian.org>  Tue, 16 Nov 2021 12:06:19 +0100
+
+node-loader-runner (4.1.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints.
+    + node-loader-runner: Add Multi-Arch: foreign.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.1
+  * Modernize debian/watch
+  * Use dh-sequence-nodejs
+  * New upstream version 4.1.0
+  * Drop useless patch
+
+ -- Xavier Guimard <yadd@debian.org>  Sun, 29 Nov 2020 09:22:39 +0100
+
+node-loader-runner (2.3.0-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Jelmer Vernooĳ ]
+  * Use secure copyright file specification URI.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Bump debhelper compatibility level to 12
+  * Update VCS fields to salsa
+  * Use pkg-js-tools auto test & install
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Add Berne Convention comment
+  * Replace Buffer() by Buffer.from()
+
+ -- Xavier Guimard <yadd@debian.org>  Sun, 01 Mar 2020 12:01:20 +0100
+
+node-loader-runner (2.3.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #860121)
+
+ -- Pirate Praveen <praveen@debian.org>  Tue, 11 Apr 2017 22:44:46 +0530
